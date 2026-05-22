@@ -1,7 +1,10 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
+# Ignore all python script files as all execution is consolidated into the master Jupyter notebook
+*.py
 *.py[cod]
 *$py.class
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
 
 # Caching
 .cache/
@@ -17,7 +20,3 @@ __pycache__/
 # Large generated files and packaging archives
 *.zip
 *.rar
-
-# Model checkpoints / binary files (if preferred to be ignored, but we can keep small ones)
-# model/lorentzian_knn_model.pkl
-# model/scaler.pkl
