@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caching
+.cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Antigravity CLI and temporary directories
+.antigravitycli/
+.tempmediaStorage/
+.gemini/
+
+# Large generated files and packaging archives
+*.zip
+*.rar
+
+# Model checkpoints / binary files (if preferred to be ignored, but we can keep small ones)
+# model/lorentzian_knn_model.pkl
+# model/scaler.pkl
