@@ -242,7 +242,6 @@ def build_notebook():
             "os.makedirs(\"slides\", exist_ok=True)\n",
             "os.makedirs(\"plagiarism\", exist_ok=True)\n",
             "os.makedirs(\"contribution\", exist_ok=True)\n",
-            "os.makedirs(\"video\", exist_ok=True)\n",
             "\n",
             "# 1. Fetch 5000 candles from Binance\n",
             "df_klines = fetch_historical_dataset(symbol=\"BTCUSDT\", interval=\"5m\", total_candles=5000)\n",

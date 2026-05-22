@@ -11,11 +11,11 @@ def package_project():
         "slides",
         "code",
         "results",
-        "video",
         "dataset",
         "model",
         "contribution"
     ]
+
     
     # Ensure all directories exist
     for d in dirs_to_include:
